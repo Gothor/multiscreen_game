@@ -1,0 +1,6 @@
+```shell
+$ python3 2.py &
+$ python -m SimpleHTTPServer
+```
+
+Then go to http://localhost:8000/
