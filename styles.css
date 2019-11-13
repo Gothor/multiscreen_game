@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#joystick-container {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.1s linear;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#joystick-container.visible {
+  opacity: 1;
+}
+
+#joystick {
+  width: 160px;
+  height: 160px;
+  left: 100px;
+  top: 100px;
+  margin-left: -80px;
+  margin-top: -80px;
+  position: absolute;
+  background-color: #444;
+  border-radius: 50%;
+}
